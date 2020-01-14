@@ -8,7 +8,7 @@ functions to propagate wave functions
 import numpy as np
 from scipy import constants
 
-def suzuki_trotter(psi, psip, expkin, V, n, nx, x, dx, px, dpx):
+def suzuki_trotter(psi, psip, expkin, V, n, nx, x, dx, px, dpx, dt):
     """
     Function that evolves a one-dimensional wave-function using 2nd order Suzuki-Trotter
     """
