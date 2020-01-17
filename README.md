@@ -8,6 +8,8 @@ A collection of python modules to propagate the Schrodinger equation with the Sp
 
 Some references about the propagation method
 - The original papers:
+  
+  - [An accurate and efficient scheme for propagating the time dependent Schrödinger equation](https://aip.scitation.org/doi/10.1063/1.448136)
 
   - [A comparison of different propagation schemes for the time dependent Schrödinger equation](https://www.sciencedirect.com/science/article/pii/002199919190137A)
 
