@@ -19,7 +19,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pySOM-Miguel-ASM",
-    version="0.0.3",
+    version="0.0.4",
     author="Miguel Angel Simon Martinez",
     author_email="miguel.a.s.martinez@gmail.com",
     description="Python implementation of Schrodinger equation split-step propagators",
@@ -34,7 +34,7 @@ setuptools.setup(
     ],
     python_requires='>={}'.format('.'.join(str(n) for n in min_version)),
     install_requires=[
-            "numpy",
-            "scipy"
+            "numpy>=1.15",
+            "scipy>=1.3"
     ],
 )
