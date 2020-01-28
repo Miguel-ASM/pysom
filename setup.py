@@ -18,7 +18,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="pySOM-Miguel-ASM", # Replace with your own username
+    name="pySOM-Miguel-ASM",
     version="0.0.2",
     author="Miguel Angel Simon Martinez",
     author_email="miguel.a.s.martinez@gmail.com",
