@@ -1,3 +1,17 @@
+# NOTE: This file must remain Python 2 compatible for the foreseeable future,
+# to ensure that we error out properly for people with outdated setuptools
+# and/or pip.
+
+import sys
+
+min_version = (3, 6)
+
+if sys.version_info < min_version:
+    error = """
+Python {0} or above is required.
+""".format('.'.join(str(n) for n in min_version)),
+    sys.exit(error)
+
 import setuptools
 
 with open("README.md", "r") as fh:
@@ -18,5 +32,9 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.6',
+    python_requires='>={}'.format('.'.join(str(n) for n in min_version)),
+    install_requires=[
+            "numpy>=1.15",
+            "scipy>=1.3"
+    ],
 )
