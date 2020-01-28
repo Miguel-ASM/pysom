@@ -22,7 +22,7 @@ setuptools.setup(
     version="0.0.1",
     author="Miguel Angel Simon Martinez",
     author_email="miguel.a.s.martinez@gmail.com",
-    description="split operator method in python",
+    description="Python implementation of Schrodinger equation split-step propagators",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/Miguel-ASM/pysom",
