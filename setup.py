@@ -34,7 +34,7 @@ setuptools.setup(
     ],
     python_requires='>={}'.format('.'.join(str(n) for n in min_version)),
     install_requires=[
-            "numpy>=1.15",
-            "scipy>=1.3"
+            "numpy",
+            "scipy"
     ],
 )
